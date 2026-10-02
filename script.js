@@ -8,7 +8,7 @@ const courses = [
     description: "Learn the building blocks of the web and put them together in projects you can actually share. No experience needed, just a browser and a little curiosity.",
     level: "Beginner",
     duration: "8 weeks",
-    instructor: "Maya Chen",
+    instructor: "Damodhar Reddy",
     image: "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=900&q=82",
     learnings: ["Write clear, semantic HTML and modern CSS", "Make layouts work on every screen size", "Add useful interactions with JavaScript"],
     modules: ["How the web works", "HTML foundations", "CSS and responsive layouts", "JavaScript essentials", "Your portfolio project"]
@@ -21,7 +21,7 @@ const courses = [
     description: "Start with the fundamentals, then use Python to work with files, data, and simple automation. Each concept is introduced through hands-on exercises.",
     level: "Beginner",
     duration: "6 weeks",
-    instructor: "Jordan Ellis",
+    instructor: "Sai Moksha",
     image: "https://images.unsplash.com/photo-1526379095098-d400fd0bf935?auto=format&fit=crop&w=900&q=82",
     learnings: ["Use variables, loops, and functions with confidence", "Organize programs into reusable pieces", "Build useful scripts for everyday tasks"],
     modules: ["Getting started with Python", "Working with data", "Decisions and loops", "Functions and files", "A practical mini project"]
@@ -34,7 +34,7 @@ const courses = [
     description: "Build a practical foundation in data science. You'll learn how to ask better questions, explore datasets, and explain what the evidence says.",
     level: "Intermediate",
     duration: "10 weeks",
-    instructor: "Priya Nair",
+    instructor: "Sai Moksha",
     image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=900&q=82",
     learnings: ["Clean and explore real-world datasets", "Create charts that make patterns clear", "Summarize findings for different audiences"],
     modules: ["Asking good data questions", "Preparing a dataset", "Exploratory analysis", "Visualising results", "Communicating your findings"]
@@ -47,7 +47,7 @@ const courses = [
     description: "Learn how modern digital campaigns come together, from understanding an audience to measuring what worked and deciding what to try next.",
     level: "Beginner",
     duration: "5 weeks",
-    instructor: "Sam Rivera",
+    instructor: "Damodhar Reddy",
     image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=900&q=82",
     learnings: ["Define an audience and a clear campaign goal", "Plan content for search and social channels", "Read campaign metrics and improve results"],
     modules: ["Digital marketing foundations", "Audience and positioning", "Content and search", "Social campaigns", "Measurement and iteration"]
@@ -60,7 +60,7 @@ const courses = [
     description: "Explore core design principles and apply them to visual work with purpose. You'll practise making thoughtful choices and explaining why they work.",
     level: "Beginner",
     duration: "7 weeks",
-    instructor: "Alex Morgan",
+    instructor: "Kishore Kumar",
     image: "https://images.unsplash.com/photo-1455390582262-044cdead277a?auto=format&fit=crop&w=900&q=82",
     learnings: ["Build balanced layouts with visual hierarchy", "Pair colour and typography with intention", "Develop a consistent visual identity"],
     modules: ["Seeing like a designer", "Layout and composition", "Colour and contrast", "Typography in practice", "A mini brand identity"]
@@ -73,7 +73,7 @@ const courses = [
     description: "Build practical security awareness for a connected world. Learn how common threats work and how thoughtful everyday practices help protect people and systems.",
     level: "Intermediate",
     duration: "6 weeks",
-    instructor: "Taylor Brooks",
+    instructor: "Sai Moksha",
     image: "https://images.unsplash.com/photo-1510511459019-5dda7724fd87?auto=format&fit=crop&w=900&q=82",
     learnings: ["Recognize common security threats", "Apply safer account and device practices", "Understand the basics of incident response"],
     modules: ["Security mindset and threat models", "Passwords and identity", "Networks and common attacks", "Safer devices and data", "Responding to an incident"]
