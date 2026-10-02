@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Explore practical courses and learn new skills at your own pace with LearnHub.">
+  <title>LearnHub | Learn something that moves you</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <nav class="navigation page-width" aria-label="Main navigation">
+      <a class="brand" href="#home" aria-label="LearnHub home"><span class="brand-mark" aria-hidden="true">L</span>LearnHub</a>
+      <div class="nav-links">
+        <a href="#home">Home</a>
+        <a href="#courses">Courses</a>
+        <a href="#about">About</a>
+      </div>
+      <a class="nav-cta" href="#courses">Start learning <span aria-hidden="true">↗</span></a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="home" aria-labelledby="hero-title">
+      <div class="hero-inner page-width">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="eyebrow-dot"></span> MAKE ROOM FOR WHAT'S NEXT</p>
+          <h1 id="hero-title">Learn new skills.<br><span>Build your future.</span></h1>
+          <p class="hero-description">Big goals start with one curious moment. Explore practical courses, learn at your own pace, and make your next move count.</p>
+          <a class="button button-primary" href="#courses">Explore courses <span aria-hidden="true">↓</span></a>
+          <div class="hero-proof"><div class="proof-avatars" aria-hidden="true"><span>J</span><span>M</span><span>A</span></div><p><strong>Learn something new today</strong><br>One lesson at a time, on your schedule.</p></div>
+        </div>
+        <div class="hero-art" aria-label="A creative workspace with books and a laptop" role="img">
+          <div class="art-note note-top"><span class="note-star">✳</span><span>YOUR NEXT<br>CHAPTER</span></div>
+          <div class="art-photo"></div>
+          <div class="art-note note-bottom"><span class="note-arrow" aria-hidden="true">↗</span><span>Curiosity<br>looks good on you.</span></div>
+          <div class="art-stamp" aria-hidden="true">LEARN<br>BY DOING</div>
+        </div>
+      </div>
+      <div class="hero-foot page-width"><span>01 / KEEP GROWING</span><span>GOOD THINGS TAKE PRACTICE</span></div>
+    </section>
+
+    <section class="courses-section" id="courses" aria-labelledby="courses-title">
+      <div class="page-width">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow section-eyebrow">A LITTLE KNOW-HOW GOES A LONG WAY</p>
+            <h2 id="courses-title">Find your next <span>thing.</span></h2>
+          </div>
+          <p class="section-intro">Thoughtful, practical courses for wherever you're headed. Pick a path and get moving.</p>
+        </div>
+        <div class="course-grid" id="course-grid" aria-live="polite"></div>
+      </div>
+    </section>
+
+    <section class="about-section" id="about" aria-labelledby="about-title">
+      <div class="about-inner page-width">
+        <p class="eyebrow">A BETTER WAY TO BEGIN</p>
+        <h2 id="about-title">Small steps.<br><span>Real momentum.</span></h2>
+        <p>LearnHub brings useful skills and great teachers together, so learning feels less like a chore and more like a door opening.</p>
+        <a href="#courses" class="text-link">Choose your first course <span aria-hidden="true">→</span></a>
+        <div class="about-index" aria-hidden="true">LH<br>2025</div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="page-width footer-inner"><a class="brand footer-brand" href="#home"><span class="brand-mark" aria-hidden="true">L</span>LearnHub</a><p>Stay curious. Keep going.</p><span>© 2025 LearnHub</span></div>
+  </footer>
+
+  <dialog class="course-dialog" id="course-dialog" aria-labelledby="dialog-title">
+    <div class="dialog-content">
+      <button class="icon-button dialog-close" type="button" aria-label="Close course details" data-close-dialog>×</button>
+      <p class="eyebrow dialog-eyebrow" id="dialog-category"></p>
+      <h2 id="dialog-title"></h2>
+      <p class="dialog-description" id="dialog-description"></p>
+      <div class="dialog-meta" id="dialog-meta"></div>
+      <div class="dialog-columns">
+        <section aria-labelledby="learn-title">
+          <h3 id="learn-title">What you'll learn</h3>
+          <ul class="detail-list" id="dialog-learnings"></ul>
+        </section>
+        <section aria-labelledby="modules-title">
+          <h3 id="modules-title">Course modules</h3>
+          <ol class="module-list" id="dialog-modules"></ol>
+        </section>
+      </div>
+      <div class="dialog-footer">
+        <button class="button button-primary enroll-button" type="button" id="enroll-button">Enroll now <span aria-hidden="true">↗</span></button>
+        <p class="enroll-message" id="enroll-message" role="status" aria-live="polite"></p>
+      </div>
+    </div>
+  </dialog>
+</body>
+</html>
