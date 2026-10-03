@@ -90,9 +90,39 @@
         </section>
       </div>
       <div class="dialog-footer">
-        <button class="button button-primary enroll-button" type="button" id="enroll-button">Enroll now <span aria-hidden="true">↗</span></button>
-        <p class="enroll-message" id="enroll-message" role="status" aria-live="polite"></p>
+        <button class="button button-primary enroll-button" type="button" id="enroll-button">Enroll for Free Demo <span aria-hidden="true">↗</span></button>
       </div>
+      <form class="enrollment-form" id="enrollment-form" hidden>
+        <h3>Request your free demo</h3>
+        <p class="form-intro">Tell us where to reach you and which other courses interest you.</p>
+        <div class="form-fields">
+          <label>
+            First name
+            <input name="firstName" type="text" autocomplete="given-name" required>
+          </label>
+          <label>
+            Last name
+            <input name="lastName" type="text" autocomplete="family-name" required>
+          </label>
+          <label class="form-email">
+            Email address
+            <input name="email" type="email" autocomplete="email" required>
+          </label>
+          <label class="form-email">
+            Phone number (optional)
+            <input name="phone" type="tel" autocomplete="tel">
+          </label>
+        </div>
+        <fieldset class="course-interests">
+          <legend>Other courses you are interested in <span>(optional)</span></legend>
+          <div class="interest-options" id="interest-options"></div>
+        </fieldset>
+        <div class="form-actions">
+          <button class="button button-secondary" type="button" id="cancel-enrollment">Back</button>
+          <button class="button button-primary" type="submit" id="submit-enrollment">Submit request</button>
+        </div>
+        <p class="enroll-message" id="enroll-message" role="status" aria-live="polite"></p>
+      </form>
     </div>
   </dialog>
 </body>
